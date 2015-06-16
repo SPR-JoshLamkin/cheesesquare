@@ -69,6 +69,32 @@
             android:orientation="vertical"
             android:paddingTop="24dp">
 
+            <com.support.android.designlibdemo.FixedTextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="Name"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress" />
+
+            </com.support.android.designlibdemo.FixedTextInputLayout>
+
+            <com.support.android.designlibdemo.FixedTextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:layout_height="wrap_content"
+                    android:layout_width="match_parent"
+                    android:hint="Email"
+                    android:imeOptions="actionNext"
+                    android:inputType="textEmailAddress" />
+
+            </com.support.android.designlibdemo.FixedTextInputLayout>
+
             <android.support.v7.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
